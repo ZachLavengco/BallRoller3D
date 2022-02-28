@@ -1,0 +1,120 @@
+html, body {
+  margin: 20px;
+  padding: 0;
+  background-image: url("bg.jpg");
+  background-size: 600px;
+  background-attachment:fixed;
+  color: red;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Lucida Handwriting;
+  font-size: 60px;
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #e60073, 0 0 10px #e60073, 0 0 10px #e60073, 0 0 60px #e60073, 0 0 50px #e60073;
+  text-shadow: 0 0 10px #fff, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 20px #ff4da6;
+  /* above from: https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+}
+h2 {
+  color: blue;
+  font-family: Courier New;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+}
+h3 {
+  color: beige;
+  font-family: Courier New;
+  text-align: left;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  color: cream;
+  text-align: left;
+  font-family: Courier New;
+  font-weight: bold;
+  font-size: 19px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+}
+
+/*used from blackboard example*/
+#headerContent a{
+  color:#ff3700;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+#headerContent a:hover{
+  color:#000;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+#headerContent{
+    text-shadow: 2px 1px .5px black;
+}
+
+.borders{
+  color: #fff;
+  background-color: #000;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  margi-bottom:10px;
+  border-style: groove;
+  border-width:10px;
+  border-color: white;
+}
+
+#collage {
+  background-color: pink;
+  padding:5px;
+  border-style: double;
+  color:#9d00ff;
+}
+#n64 {
+  background-color: black;
+  padding:5px;
+  color:#9d00ff;
+}
+#melee {
+  background-color: purple;
+  padding:5px;
+  color:#9d00ff;
+}
+#brawl {
+  background-color: red;
+  padding:5px;
+  color:#9d00ff;
+}
+#wiiu {
+  background-color: orange;
+  padding:5px;
+  color:#9d00ff;
+}
+#ult {
+  background-color: lightgrey;
+  padding: 5px;
+  color:#9d00ff;
+}
+#link {
+  background-color: black;
+  padding:5px;
+  border-style: double;
+  color:#9d00ff;
+}
